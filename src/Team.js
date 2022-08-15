@@ -11,7 +11,7 @@ const Team = ({ teams }) => {
           <span>
             <img
               className="flag"
-              src={`../assets/${changeName(team)}.png`}
+              src={`../public/assets/${changeName(team)}.png`}
               alt="Unknown"
             />
           </span>
